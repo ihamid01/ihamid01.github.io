@@ -13,4 +13,8 @@ In addition to storing memory on the stack, the OS also stores information on th
 At this point, all the memory is loaded into ram, the stack and heap are initialized. There are some other initializing procedures for the OS to do, like setting up standard input, standard output, and standard error.  After that, all that’s left for the OS to do is call the main function and start executing the program. 
 
 
-
+ ```tsql
+ SELECT *
+ FROM sys.tables
+ WHERE [name] = 'SomeTable'
+ ```
